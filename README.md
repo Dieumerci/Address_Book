@@ -1,13 +1,7 @@
-# Address_Book
-An address book web application (RubyOnRails) that stores phone numbers, name, email, and displays mailing labels.. CRUD functionality
+# Blog App
+A Ruby on Rails blogging app for the fashionable developer.
 
-As Kanye West said:
-
-> We're living the future so
-> the present is our past.
-
-I think you should use an
-`<addr>` element here instead
+Preferences are for the masses. Any real coder knows the easiest and best way to customize something is by hacking code.
 
 ## Setup Instructions:
 
@@ -17,11 +11,4 @@ cd addressbook
 gem install bundler
 bundle install
 
-cp config/database.yml.template config/database.yml
-# configure your database
-
-cp config/application_config.yml.template config/application_config.yml
-# configure the application
-
-bundle exec rake db:migrate
 ```
