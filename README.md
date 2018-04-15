@@ -9,10 +9,19 @@ As Kanye West said:
 I think you should use an
 `<addr>` element here instead
 
-And if you'd like to use syntax highlighting, include the language:
+## Setup Instructions:
 
-```javascript
-if (isAwesome){
-  return true
-}
+```
+git clone git://github.com/jwood/addressbook.git
+cd addressbook
+gem install bundler
+bundle install
+
+cp config/database.yml.template config/database.yml
+# configure your database
+
+cp config/application_config.yml.template config/application_config.yml
+# configure the application
+
+bundle exec rake db:migrate
 ```
